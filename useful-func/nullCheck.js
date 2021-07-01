@@ -40,6 +40,7 @@ function print(person) {
       return;
     }
     console.log(person.name);
+    
   }
   
   const person = null;

@@ -7,7 +7,7 @@ false || true  // true
 
 
 
-// null은 falshy한 값
+// null은 falsy한 값
 
 console.log(null && '여기 안본다') // null 
 console.log( 1 && '여기 본다')   // and 연산자에서는 앞의 값이 truthy하면 앞은 안나오고 뒤에 연산자가 나온다. 
@@ -18,8 +18,8 @@ console.log( 1 || '여기 안본다') // or 연산자에서는 앞에 값이 tru
 
 /**
  *  결론
- *  && : true 이면 다음 true,   false 이면 끝
- *  || : true 이고 끝,  false 이고 다음 false  (예외처리일때 사용)
+ *  && : true 이면 다음 true,   false 이면 끝 
+ *  || : true 이고 끝,  false 이고 다음 false  (예외처리일때 사용) : falsy(null) 일때 무조건 값이 나와야되는 경우
  */
 
 
